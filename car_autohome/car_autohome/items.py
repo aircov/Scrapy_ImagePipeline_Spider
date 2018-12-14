@@ -11,4 +11,5 @@ import scrapy
 class CarAutohomeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    category = scrapy.Field()
+    image_urls = scrapy.Field()
